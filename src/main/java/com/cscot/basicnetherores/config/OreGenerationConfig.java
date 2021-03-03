@@ -323,30 +323,30 @@ public class OreGenerationConfig
                 .define("ore_generation.world_generation.coal", true);
         silverGeneration = builder
                 .comment("Generate Silver Ore")
-                .define("ore_generation.world_generation.silver", false);
+                .define("ore_generation.world_generation.silver", true);
         ironGeneration = builder
                 .comment("Generate Iron Ore")
                 .define("ore_generation.world_generation.iron", true);
         leadGeneration = builder
                 .comment("Generate Lead Ore")
-                .define("ore_generation.world_generation.lead", false);
+                .define("ore_generation.world_generation.lead", true);
         nickelGeneration = builder
                 .comment("Generate Nickel Ore")
-                .define("ore_generation.world_generation.nickel", false);
+                .define("ore_generation.world_generation.nickel", true);
         copperGeneration = builder
                 .comment("Generate Copper Ore")
-                .define("ore_generation.world_generation.copper", false);
+                .define("ore_generation.world_generation.copper", true);
         aluminumGeneration = builder
                 .comment("Generate Aluminum Ore")
-                .define("ore_generation.world_generation.aluminum", false);
+                .define("ore_generation.world_generation.aluminum", true);
         tinGeneration = builder
                 .comment("Generate Tin Ore")
-                .define("ore_generation.world_generation.tin", false);
+                .define("ore_generation.world_generation.tin", true);
         osmiumGeneration = builder
                 .comment("Generate Osmium Ore")
-                .define("ore_generation.world_generation.osmium", false);
+                .define("ore_generation.world_generation.osmium", true);
         uraniumGeneration = builder
                 .comment("Generate Uranium Ore")
-                .define("ore_generation.world_generation.uranium", false);
+                .define("ore_generation.world_generation.uranium", true);
     }
 }
